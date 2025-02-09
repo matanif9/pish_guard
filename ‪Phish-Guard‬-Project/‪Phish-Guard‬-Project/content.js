@@ -367,7 +367,7 @@ function isContentPhishing() {
     }
     
     async function checkDomainWithGoogle(domain) {
-        const apiKey = 'AIzaSyCnUhsA6hj_95DBCf95wQQSUhd-M4N9Acw'; // Replace with your Google API key
+        const apiKey = ''; // Replace with your Google API key
         const apiUrl = `https://safebrowsing.googleapis.com/v4/threatMatches:find?key=${apiKey}`;
     
         if (!domain || domain.trim() === '') {
